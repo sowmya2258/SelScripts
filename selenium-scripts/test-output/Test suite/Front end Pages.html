@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Front end Pages</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Front end Pages</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 31 16:41:40 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12517 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.ContentPage.testCOPG_1()'><b>testCOPG_1</b><br>Test class: com.r1v2.frontend.pagebuilder.module.ContentPage<br/>
+<a href="#Output-95935306" onClick='toggleBox("Output-95935306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95935306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95935306">
+<br>Opened URL : http://aadhimaruti.stg-indemosite.com/content-page-in-en-in.htm<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.r1v2.frontend.pagebuilder.module.ContentPage@6ee52dcd</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.ContentPage.testCOPG_2()'><b>testCOPG_2</b><br>Test class: com.r1v2.frontend.pagebuilder.module.ContentPage<br/>
+<a href="#Output-50918784" onClick='toggleBox("Output-50918784", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-50918784" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-50918784">
+<br>[Ljava.lang.String;@98a7237 is present<br/>
+<br>content-pagein is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.frontend.pagebuilder.module.ContentPage@6ee52dcd</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.ContentPage.testCOPG_3()'><b>testCOPG_3</b><br>Test class: com.r1v2.frontend.pagebuilder.module.ContentPage</td>
+<td></td>
+<td>2</td>
+<td>com.r1v2.frontend.pagebuilder.module.ContentPage@6ee52dcd</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.CampaignPage.testCPG_1()'><b>testCPG_1</b><br>Test class: com.r1v2.frontend.pagebuilder.module.CampaignPage<br/>
+<a href="#Output-1779667135" onClick='toggleBox("Output-1779667135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779667135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779667135">
+<br>Opened URL : http://aadhimaruti.stg-indemosite.com/campaign-page-in-en-in.htm<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.r1v2.frontend.pagebuilder.module.CampaignPage@704a52ec</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.CampaignPage.testCPG_2()'><b>testCPG_2</b><br>Test class: com.r1v2.frontend.pagebuilder.module.CampaignPage<br/>
+<a href="#Output-1294382252" onClick='toggleBox("Output-1294382252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1294382252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1294382252">
+<br>[Ljava.lang.String;@4bf30fc6 is present<br/>
+<br>campaign-pagein is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.frontend.pagebuilder.module.CampaignPage@704a52ec</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.CampaignPage.testCPG_3()'><b>testCPG_3</b><br>Test class: com.r1v2.frontend.pagebuilder.module.CampaignPage</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.frontend.pagebuilder.module.CampaignPage@704a52ec</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.SpecialPage.testSPG_1()'><b>testSPG_1</b><br>Test class: com.r1v2.frontend.pagebuilder.module.SpecialPage<br/>
+<a href="#Output-854657201" onClick='toggleBox("Output-854657201", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-854657201" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-854657201">
+<br>Opened URL : http://aadhimaruti.stg-indemosite.com/special-page-in-en-in.htm<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.r1v2.frontend.pagebuilder.module.SpecialPage@4493d195</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.SpecialPage.testSPG_2()'><b>testSPG_2</b><br>Test class: com.r1v2.frontend.pagebuilder.module.SpecialPage<br/>
+<a href="#Output-1405986081" onClick='toggleBox("Output-1405986081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1405986081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1405986081">
+<br>[Ljava.lang.String;@10409303 is present<br/>
+<br>Special-pagein is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.frontend.pagebuilder.module.SpecialPage@4493d195</td></tr>
+<tr>
+<td title='com.r1v2.frontend.pagebuilder.module.SpecialPage.testSPG_3()'><b>testSPG_3</b><br>Test class: com.r1v2.frontend.pagebuilder.module.SpecialPage</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.frontend.pagebuilder.module.SpecialPage@4493d195</td></tr>
+</table><p>
+</body>
+</html>

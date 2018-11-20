@@ -1,0 +1,4 @@
+Level,Locale,DealerId,Dealers,Title,Title1,Url,Url1,Department,Responsive_Content,Responsive_Content1,Form_category,PageTitle
+OEM,Euro,175,Citroen,Contenttest-oem,Content-oem,frenchtest-oem,englishtest-oem,Used Car Sales,Responsive French Content,Responsive English Content,,SEO List
+Group,Euro,102863,PGA,contenttest-group,,contenttest-group,,Used Car Sales,Responsive Content for Group ,,,SEO List
+Dealer,Euro,102880,citroen-annecy.stg-eudemosite.com,Contenttest-dlr,,contenttest-dlr,,Véhicules d'occasion,Responsive Content for Dealer,,,SEO List

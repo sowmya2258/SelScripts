@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "Test suite"  verbose="10"  thread-count="3"  >
+ 
+ <!-- <test  name="Scenario 1 Test Cases">
+    <classes>
+      <class name="com.r1v2.backend.pagebuilder.module.Scenario1Login"/>
+    </classes>
+ </test> -->
+ 
+ 
+ <test  name="Scenario lead report Test Case">
+    <classes>
+      <class name="com.r1v2.backend.leaddetailsreport.module.ScenarioLeadTypes"/>
+    </classes>
+ </test>  
+
+<!-- <test  name="SC PageBuilder Pages" parallel="classes">
+    <classes>
+      <class name="com.r1v2.backend.pagebuilder.module.ScenarioCamapignPage"/>
+       <class name="com.r1v2.backend.pagebuilder.module.ScenarioContentPage"/>
+        <class name="com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage"/>
+    </classes>
+ </test> -->
+ 
+ <!-- <test  name="Front end Pages" parallel="classes">
+    <classes>
+       <class name="com.r1v2.frontend.pagebuilder.module.CampaignPage"/>
+        <class name="com.r1v2.frontend.pagebuilder.module.ContentPage"/>
+        <class name="com.r1v2.frontend.pagebuilder.module.SpecialPage"/>
+    </classes>
+ </test>  -->
+ 
+ 
+  <!-- <test  name="CleanUp User Data From DataBase" >
+    <classes>
+       <class name="com.r1v2.cleanup.user.data.CleanupData"/>
+     </classes>
+ </test> 
+  --> 
+ 
+ 
+ 
+ 
+ <!-- <test  name="SC PriceRule Pages" parallel="classes">
+    <classes>
+      <class name="com.r1v2.backend.pricerule.module.ScenarioDealerDiscount"/>
+       <class name="com.r1v2.backend.pricerule.module.ScenarioTradeinDiscount"/>
+       <class name="com.r1v2.backend.pricerule.module.ScenarioGreenDiscount"/>
+       <class name="com.r1v2.backend.pricerule.module.ScenarioOemDiscount"/>
+    </classes>
+ </test> 
+  -->
+
+ 
+
+ <!-- <test  name="Scenario 3 Test Cases">
+    <classes>
+      <class name="com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage"/>
+    </classes>
+ </test> 
+ 
+  <test  name="Scenario 4 Test Cases">
+    <classes>
+      <class name="com.r1v2.backend.pagebuilder.module.ScenarioContentPage"/>
+    </classes>
+ </test>  -->
+
+  <!-- 
+    <test  name="Scenario 5 Test Cases" parallel="false">
+    <classes>
+      <class name="com.r1v2.frontend.pagebuilder.module.ContentPage"/>
+    </classes>
+ </test> 
+ 
+   <test  name="Scenario 6 Test Cases">
+    <classes>
+      <class name="com.r1v2.frontend.pagebuilder.module.CampaignPage"/>
+    </classes>
+ </test> 
+ 
+  <test  name="Scenario 7 Test Cases">
+    <classes>
+      <class name="com.r1v2.frontend.pagebuilder.module.SpecialPage"/>
+    </classes>
+ </test>   -->
+ 
+ <!-- <test name="all-tests">
+        <packages>
+            <package name="com.r1v2.backend.modules"/>
+        </packages>
+   </test> 
+ --> 
+</suite>

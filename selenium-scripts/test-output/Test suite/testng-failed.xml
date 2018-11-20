@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Test suite]">
+  <test thread-count="3" verbose="10" name="SC PageBuilder Pages(failed)" parallel="classes">
+    <classes>
+      <class name="com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage">
+        <methods>
+          <include name="testPG_5"/>
+          <include name="getResult"/>
+          <include name="setUpOnce1"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage -->
+      <class name="com.r1v2.backend.pagebuilder.module.ScenarioCamapignPage">
+        <methods>
+          <include name="setUpOnce1"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="testPG_5"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.r1v2.backend.pagebuilder.module.ScenarioCamapignPage -->
+    </classes>
+  </test> <!-- SC PageBuilder Pages(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
